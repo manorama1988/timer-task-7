@@ -13,16 +13,14 @@
     <h1 class="time-heading">Timer App</h1>
     <div class="time-card">
         <div class="time-card-content">
-            <div class="time-hours"> <span class="timeFont th"> </span> <br> HH </div>
-            <div class="time-minute"> <span class="timeFont tm" > </span><br>MM</div>
-            <div class="time-second"><span class="timeFont ts"> </span> <br>SS</div>
+            <p id="countdown" class="countdown_timer">00:00:00</p>
         </div>
         <div class="time-card-footer">
             
-            <button onclick="clearInterval(intId)" class="btn btn-start">Start</button>
-            <button onclick="clearInterval(intId)" class="btn btn-reset">Reset</button>
+            <button  class="btn btn-start">Start</button>
+            <button  class="btn btn-reset">Reset</button>
         </div>
     </div>
-    <script src="js/time.js"></script>
+    <script src="js/timer.js"></script>
 </body>
 </html>
