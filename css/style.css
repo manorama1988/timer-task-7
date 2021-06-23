@@ -21,6 +21,10 @@ body{
     justify-content:space-around;
     padding: .8em 1.1em;
 }
+.countdown_timer{
+    font-size:4em;
+    margin:0;
+}
 .timeFont{
     font-size:4em;
     font-weight:400;
